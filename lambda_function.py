@@ -38,3 +38,4 @@ def validateInput(inputNumber):
         value="Fizzbuzz"
         code = 200
     return value, code
+
