@@ -1,4 +1,4 @@
-import lambda_function
+from .. import lambda_function 
 
 def test_validateInput_zero():
     ret = lambda_function.validateInput(0)
