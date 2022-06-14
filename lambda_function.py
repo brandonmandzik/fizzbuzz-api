@@ -1,7 +1,7 @@
 import json
 
 def lambda_handler(event, context):
-    returnCode = 400
+    returnCode = 500
     returnValue = "ArgumentError - no property (number) provided"
     
     print("Processing incoming request")
